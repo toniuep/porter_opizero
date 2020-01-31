@@ -1,0 +1,2480 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_141e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_141e8.dir/build.make CMakeFiles/cmTC_141e8.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_141e8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_141e8.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_141e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_141e8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_141e8.dir/CheckSymbolExists.c.o  -o cmTC_141e8 
+CMakeFiles/cmTC_141e8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_141e8.dir/build.make:97: recipe for target 'cmTC_141e8' failed
+make[1]: *** [cmTC_141e8] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_141e8/fast' failed
+make: *** [cmTC_141e8/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4b20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4b20.dir/build.make CMakeFiles/cmTC_a4b20.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4b20.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a4b20.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4b20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b20.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a4b20.dir/CheckFunctionExists.c.o  -o cmTC_a4b20 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a4b20.dir/build.make:97: recipe for target 'cmTC_a4b20' failed
+make[1]: *** [cmTC_a4b20] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4b20/fast' failed
+make: *** [cmTC_a4b20/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e5a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e5a1.dir/build.make CMakeFiles/cmTC_5e5a1.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e5a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e5a1.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5e5a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5a1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5e5a1.dir/CheckSymbolExists.c.o  -o cmTC_5e5a1 
+CMakeFiles/cmTC_5e5a1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5e5a1.dir/build.make:97: recipe for target 'cmTC_5e5a1' failed
+make[1]: *** [cmTC_5e5a1] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e5a1/fast' failed
+make: *** [cmTC_5e5a1/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed29d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed29d.dir/build.make CMakeFiles/cmTC_ed29d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed29d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ed29d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed29d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed29d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ed29d.dir/CheckFunctionExists.c.o  -o cmTC_ed29d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ed29d.dir/build.make:97: recipe for target 'cmTC_ed29d' failed
+make[1]: *** [cmTC_ed29d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ed29d/fast' failed
+make: *** [cmTC_ed29d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_613bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_613bc.dir/build.make CMakeFiles/cmTC_613bc.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_613bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_613bc.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_613bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_613bc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_613bc.dir/CheckSymbolExists.c.o  -o cmTC_613bc 
+CMakeFiles/cmTC_613bc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_613bc.dir/build.make:97: recipe for target 'cmTC_613bc' failed
+make[1]: *** [cmTC_613bc] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_613bc/fast' failed
+make: *** [cmTC_613bc/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d28d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d28d5.dir/build.make CMakeFiles/cmTC_d28d5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d28d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d28d5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d28d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d28d5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d28d5.dir/CheckFunctionExists.c.o  -o cmTC_d28d5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d28d5.dir/build.make:97: recipe for target 'cmTC_d28d5' failed
+make[1]: *** [cmTC_d28d5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d28d5/fast' failed
+make: *** [cmTC_d28d5/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4922d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4922d.dir/build.make CMakeFiles/cmTC_4922d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4922d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4922d.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4922d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4922d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4922d.dir/CheckSymbolExists.c.o  -o cmTC_4922d 
+CMakeFiles/cmTC_4922d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4922d.dir/build.make:97: recipe for target 'cmTC_4922d' failed
+make[1]: *** [cmTC_4922d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4922d/fast' failed
+make: *** [cmTC_4922d/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb6bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb6bc.dir/build.make CMakeFiles/cmTC_eb6bc.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb6bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eb6bc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb6bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eb6bc.dir/CheckFunctionExists.c.o  -o cmTC_eb6bc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eb6bc.dir/build.make:97: recipe for target 'cmTC_eb6bc' failed
+make[1]: *** [cmTC_eb6bc] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eb6bc/fast' failed
+make: *** [cmTC_eb6bc/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f25cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f25cd.dir/build.make CMakeFiles/cmTC_f25cd.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f25cd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f25cd.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f25cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f25cd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f25cd.dir/CheckSymbolExists.c.o  -o cmTC_f25cd 
+CMakeFiles/cmTC_f25cd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f25cd.dir/build.make:97: recipe for target 'cmTC_f25cd' failed
+make[1]: *** [cmTC_f25cd] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f25cd/fast' failed
+make: *** [cmTC_f25cd/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d0ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d0ce.dir/build.make CMakeFiles/cmTC_8d0ce.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d0ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8d0ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8d0ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d0ce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8d0ce.dir/CheckFunctionExists.c.o  -o cmTC_8d0ce -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8d0ce.dir/build.make:97: recipe for target 'cmTC_8d0ce' failed
+make[1]: *** [cmTC_8d0ce] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8d0ce/fast' failed
+make: *** [cmTC_8d0ce/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fde75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fde75.dir/build.make CMakeFiles/cmTC_fde75.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fde75.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fde75.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fde75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde75.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fde75.dir/CheckSymbolExists.c.o  -o cmTC_fde75 
+CMakeFiles/cmTC_fde75.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fde75.dir/build.make:97: recipe for target 'cmTC_fde75' failed
+make[1]: *** [cmTC_fde75] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fde75/fast' failed
+make: *** [cmTC_fde75/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1410c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1410c.dir/build.make CMakeFiles/cmTC_1410c.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1410c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1410c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1410c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1410c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1410c.dir/CheckFunctionExists.c.o  -o cmTC_1410c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1410c.dir/build.make:97: recipe for target 'cmTC_1410c' failed
+make[1]: *** [cmTC_1410c] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1410c/fast' failed
+make: *** [cmTC_1410c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a99b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a99b1.dir/build.make CMakeFiles/cmTC_a99b1.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a99b1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a99b1.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a99b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a99b1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a99b1.dir/CheckSymbolExists.c.o  -o cmTC_a99b1 
+CMakeFiles/cmTC_a99b1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a99b1.dir/build.make:97: recipe for target 'cmTC_a99b1' failed
+make[1]: *** [cmTC_a99b1] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a99b1/fast' failed
+make: *** [cmTC_a99b1/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b14a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b14a5.dir/build.make CMakeFiles/cmTC_b14a5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b14a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b14a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b14a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b14a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b14a5.dir/CheckFunctionExists.c.o  -o cmTC_b14a5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b14a5.dir/build.make:97: recipe for target 'cmTC_b14a5' failed
+make[1]: *** [cmTC_b14a5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b14a5/fast' failed
+make: *** [cmTC_b14a5/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6324b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6324b.dir/build.make CMakeFiles/cmTC_6324b.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6324b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6324b.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6324b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6324b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6324b.dir/CheckSymbolExists.c.o  -o cmTC_6324b 
+CMakeFiles/cmTC_6324b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6324b.dir/build.make:97: recipe for target 'cmTC_6324b' failed
+make[1]: *** [cmTC_6324b] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6324b/fast' failed
+make: *** [cmTC_6324b/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49e9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49e9e.dir/build.make CMakeFiles/cmTC_49e9e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49e9e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49e9e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49e9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e9e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_49e9e.dir/CheckFunctionExists.c.o  -o cmTC_49e9e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_49e9e.dir/build.make:97: recipe for target 'cmTC_49e9e' failed
+make[1]: *** [cmTC_49e9e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49e9e/fast' failed
+make: *** [cmTC_49e9e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35878/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35878.dir/build.make CMakeFiles/cmTC_35878.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35878.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_35878.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_35878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35878.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_35878.dir/CheckSymbolExists.c.o  -o cmTC_35878 
+CMakeFiles/cmTC_35878.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_35878.dir/build.make:97: recipe for target 'cmTC_35878' failed
+make[1]: *** [cmTC_35878] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35878/fast' failed
+make: *** [cmTC_35878/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f55e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f55e7.dir/build.make CMakeFiles/cmTC_f55e7.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f55e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f55e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f55e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f55e7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f55e7.dir/CheckFunctionExists.c.o  -o cmTC_f55e7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f55e7.dir/build.make:97: recipe for target 'cmTC_f55e7' failed
+make[1]: *** [cmTC_f55e7] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f55e7/fast' failed
+make: *** [cmTC_f55e7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a54af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a54af.dir/build.make CMakeFiles/cmTC_a54af.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a54af.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a54af.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a54af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54af.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a54af.dir/CheckSymbolExists.c.o  -o cmTC_a54af 
+CMakeFiles/cmTC_a54af.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a54af.dir/build.make:97: recipe for target 'cmTC_a54af' failed
+make[1]: *** [cmTC_a54af] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a54af/fast' failed
+make: *** [cmTC_a54af/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0dd8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dd8c.dir/build.make CMakeFiles/cmTC_0dd8c.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0dd8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0dd8c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0dd8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dd8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0dd8c.dir/CheckFunctionExists.c.o  -o cmTC_0dd8c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0dd8c.dir/build.make:97: recipe for target 'cmTC_0dd8c' failed
+make[1]: *** [cmTC_0dd8c] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0dd8c/fast' failed
+make: *** [cmTC_0dd8c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae283/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae283.dir/build.make CMakeFiles/cmTC_ae283.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae283.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae283.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ae283
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae283.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ae283.dir/CheckSymbolExists.c.o  -o cmTC_ae283 
+CMakeFiles/cmTC_ae283.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ae283.dir/build.make:97: recipe for target 'cmTC_ae283' failed
+make[1]: *** [cmTC_ae283] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae283/fast' failed
+make: *** [cmTC_ae283/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1736/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1736.dir/build.make CMakeFiles/cmTC_b1736.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1736.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b1736.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1736.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b1736.dir/CheckFunctionExists.c.o  -o cmTC_b1736 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b1736.dir/build.make:97: recipe for target 'cmTC_b1736' failed
+make[1]: *** [cmTC_b1736] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b1736/fast' failed
+make: *** [cmTC_b1736/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4097c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4097c.dir/build.make CMakeFiles/cmTC_4097c.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4097c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4097c.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4097c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4097c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4097c.dir/CheckSymbolExists.c.o  -o cmTC_4097c 
+CMakeFiles/cmTC_4097c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4097c.dir/build.make:97: recipe for target 'cmTC_4097c' failed
+make[1]: *** [cmTC_4097c] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4097c/fast' failed
+make: *** [cmTC_4097c/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fa9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fa9e.dir/build.make CMakeFiles/cmTC_0fa9e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fa9e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0fa9e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0fa9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fa9e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0fa9e.dir/CheckFunctionExists.c.o  -o cmTC_0fa9e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0fa9e.dir/build.make:97: recipe for target 'cmTC_0fa9e' failed
+make[1]: *** [cmTC_0fa9e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0fa9e/fast' failed
+make: *** [cmTC_0fa9e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff99b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff99b.dir/build.make CMakeFiles/cmTC_ff99b.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff99b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ff99b.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ff99b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff99b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ff99b.dir/CheckSymbolExists.c.o  -o cmTC_ff99b 
+CMakeFiles/cmTC_ff99b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ff99b.dir/build.make:97: recipe for target 'cmTC_ff99b' failed
+make[1]: *** [cmTC_ff99b] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ff99b/fast' failed
+make: *** [cmTC_ff99b/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5cc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5cc7.dir/build.make CMakeFiles/cmTC_b5cc7.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5cc7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b5cc7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5cc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5cc7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b5cc7.dir/CheckFunctionExists.c.o  -o cmTC_b5cc7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b5cc7.dir/build.make:97: recipe for target 'cmTC_b5cc7' failed
+make[1]: *** [cmTC_b5cc7] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5cc7/fast' failed
+make: *** [cmTC_b5cc7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec7e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec7e8.dir/build.make CMakeFiles/cmTC_ec7e8.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec7e8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ec7e8.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ec7e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec7e8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ec7e8.dir/CheckSymbolExists.c.o  -o cmTC_ec7e8 
+CMakeFiles/cmTC_ec7e8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ec7e8.dir/build.make:97: recipe for target 'cmTC_ec7e8' failed
+make[1]: *** [cmTC_ec7e8] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec7e8/fast' failed
+make: *** [cmTC_ec7e8/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4172e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4172e.dir/build.make CMakeFiles/cmTC_4172e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4172e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4172e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4172e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4172e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4172e.dir/CheckFunctionExists.c.o  -o cmTC_4172e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4172e.dir/build.make:97: recipe for target 'cmTC_4172e' failed
+make[1]: *** [cmTC_4172e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4172e/fast' failed
+make: *** [cmTC_4172e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3aa9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3aa9f.dir/build.make CMakeFiles/cmTC_3aa9f.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa9f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3aa9f.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3aa9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa9f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3aa9f.dir/CheckSymbolExists.c.o  -o cmTC_3aa9f 
+CMakeFiles/cmTC_3aa9f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3aa9f.dir/build.make:97: recipe for target 'cmTC_3aa9f' failed
+make[1]: *** [cmTC_3aa9f] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3aa9f/fast' failed
+make: *** [cmTC_3aa9f/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c07a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c07a.dir/build.make CMakeFiles/cmTC_6c07a.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c07a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6c07a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c07a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c07a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6c07a.dir/CheckFunctionExists.c.o  -o cmTC_6c07a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6c07a.dir/build.make:97: recipe for target 'cmTC_6c07a' failed
+make[1]: *** [cmTC_6c07a] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6c07a/fast' failed
+make: *** [cmTC_6c07a/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5140b/fast"
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5140b.dir/build.make CMakeFiles/cmTC_5140b.dir/build
+make[2]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5140b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5140b.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5140b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5140b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5140b.dir/CheckSymbolExists.c.o  -o cmTC_5140b 
+CMakeFiles/cmTC_5140b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5140b.dir/build.make:97: recipe for target 'cmTC_5140b' failed
+make[2]: *** [cmTC_5140b] Error 1
+make[2]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5140b/fast' failed
+make[1]: *** [cmTC_5140b/fast] Error 2
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6bd80/fast"
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6bd80.dir/build.make CMakeFiles/cmTC_6bd80.dir/build
+make[2]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bd80.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6bd80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6bd80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bd80.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6bd80.dir/CheckFunctionExists.c.o  -o cmTC_6bd80 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6bd80.dir/build.make:97: recipe for target 'cmTC_6bd80' failed
+make[2]: *** [cmTC_6bd80] Error 1
+make[2]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6bd80/fast' failed
+make[1]: *** [cmTC_6bd80/fast] Error 2
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8aad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8aad4.dir/build.make CMakeFiles/cmTC_8aad4.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8aad4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8aad4.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8aad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aad4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8aad4.dir/CheckSymbolExists.c.o  -o cmTC_8aad4 
+CMakeFiles/cmTC_8aad4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8aad4.dir/build.make:97: recipe for target 'cmTC_8aad4' failed
+make[1]: *** [cmTC_8aad4] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8aad4/fast' failed
+make: *** [cmTC_8aad4/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c751d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c751d.dir/build.make CMakeFiles/cmTC_c751d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c751d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c751d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c751d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c751d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c751d.dir/CheckFunctionExists.c.o  -o cmTC_c751d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c751d.dir/build.make:97: recipe for target 'cmTC_c751d' failed
+make[1]: *** [cmTC_c751d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c751d/fast' failed
+make: *** [cmTC_c751d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74bbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74bbf.dir/build.make CMakeFiles/cmTC_74bbf.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74bbf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74bbf.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_74bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bbf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_74bbf.dir/CheckSymbolExists.c.o  -o cmTC_74bbf 
+CMakeFiles/cmTC_74bbf.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_74bbf.dir/build.make:97: recipe for target 'cmTC_74bbf' failed
+make[1]: *** [cmTC_74bbf] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_74bbf/fast' failed
+make: *** [cmTC_74bbf/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05162/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05162.dir/build.make CMakeFiles/cmTC_05162.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05162.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_05162.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05162.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_05162.dir/CheckFunctionExists.c.o  -o cmTC_05162 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_05162.dir/build.make:97: recipe for target 'cmTC_05162' failed
+make[1]: *** [cmTC_05162] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_05162/fast' failed
+make: *** [cmTC_05162/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a68a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a68a.dir/build.make CMakeFiles/cmTC_2a68a.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a68a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a68a.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a68a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a68a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2a68a.dir/CheckSymbolExists.c.o  -o cmTC_2a68a 
+CMakeFiles/cmTC_2a68a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2a68a.dir/build.make:97: recipe for target 'cmTC_2a68a' failed
+make[1]: *** [cmTC_2a68a] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2a68a/fast' failed
+make: *** [cmTC_2a68a/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1afea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1afea.dir/build.make CMakeFiles/cmTC_1afea.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1afea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1afea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1afea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1afea.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1afea.dir/CheckFunctionExists.c.o  -o cmTC_1afea -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1afea.dir/build.make:97: recipe for target 'cmTC_1afea' failed
+make[1]: *** [cmTC_1afea] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1afea/fast' failed
+make: *** [cmTC_1afea/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46edd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46edd.dir/build.make CMakeFiles/cmTC_46edd.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46edd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_46edd.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46edd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46edd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_46edd.dir/CheckSymbolExists.c.o  -o cmTC_46edd 
+CMakeFiles/cmTC_46edd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_46edd.dir/build.make:97: recipe for target 'cmTC_46edd' failed
+make[1]: *** [cmTC_46edd] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46edd/fast' failed
+make: *** [cmTC_46edd/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2295/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2295.dir/build.make CMakeFiles/cmTC_c2295.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2295.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c2295.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c2295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2295.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c2295.dir/CheckFunctionExists.c.o  -o cmTC_c2295 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c2295.dir/build.make:97: recipe for target 'cmTC_c2295' failed
+make[1]: *** [cmTC_c2295] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c2295/fast' failed
+make: *** [cmTC_c2295/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_075b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_075b5.dir/build.make CMakeFiles/cmTC_075b5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_075b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_075b5.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_075b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_075b5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_075b5.dir/CheckSymbolExists.c.o  -o cmTC_075b5 
+CMakeFiles/cmTC_075b5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_075b5.dir/build.make:97: recipe for target 'cmTC_075b5' failed
+make[1]: *** [cmTC_075b5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_075b5/fast' failed
+make: *** [cmTC_075b5/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d3a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d3a5.dir/build.make CMakeFiles/cmTC_5d3a5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d3a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5d3a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5d3a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d3a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5d3a5.dir/CheckFunctionExists.c.o  -o cmTC_5d3a5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5d3a5.dir/build.make:97: recipe for target 'cmTC_5d3a5' failed
+make[1]: *** [cmTC_5d3a5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d3a5/fast' failed
+make: *** [cmTC_5d3a5/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ce9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ce9f.dir/build.make CMakeFiles/cmTC_8ce9f.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ce9f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ce9f.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8ce9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ce9f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ce9f.dir/CheckSymbolExists.c.o  -o cmTC_8ce9f 
+CMakeFiles/cmTC_8ce9f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8ce9f.dir/build.make:97: recipe for target 'cmTC_8ce9f' failed
+make[1]: *** [cmTC_8ce9f] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ce9f/fast' failed
+make: *** [cmTC_8ce9f/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7a0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7a0d.dir/build.make CMakeFiles/cmTC_f7a0d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7a0d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f7a0d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7a0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7a0d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f7a0d.dir/CheckFunctionExists.c.o  -o cmTC_f7a0d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f7a0d.dir/build.make:97: recipe for target 'cmTC_f7a0d' failed
+make[1]: *** [cmTC_f7a0d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f7a0d/fast' failed
+make: *** [cmTC_f7a0d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18b87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18b87.dir/build.make CMakeFiles/cmTC_18b87.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18b87.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_18b87.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_18b87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18b87.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_18b87.dir/CheckSymbolExists.c.o  -o cmTC_18b87 
+CMakeFiles/cmTC_18b87.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_18b87.dir/build.make:97: recipe for target 'cmTC_18b87' failed
+make[1]: *** [cmTC_18b87] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18b87/fast' failed
+make: *** [cmTC_18b87/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16bf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16bf5.dir/build.make CMakeFiles/cmTC_16bf5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16bf5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_16bf5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16bf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16bf5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_16bf5.dir/CheckFunctionExists.c.o  -o cmTC_16bf5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_16bf5.dir/build.make:97: recipe for target 'cmTC_16bf5' failed
+make[1]: *** [cmTC_16bf5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16bf5/fast' failed
+make: *** [cmTC_16bf5/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af90f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af90f.dir/build.make CMakeFiles/cmTC_af90f.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af90f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af90f.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_af90f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af90f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af90f.dir/CheckSymbolExists.c.o  -o cmTC_af90f 
+CMakeFiles/cmTC_af90f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_af90f.dir/build.make:97: recipe for target 'cmTC_af90f' failed
+make[1]: *** [cmTC_af90f] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_af90f/fast' failed
+make: *** [cmTC_af90f/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_829da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_829da.dir/build.make CMakeFiles/cmTC_829da.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_829da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_829da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_829da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829da.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_829da.dir/CheckFunctionExists.c.o  -o cmTC_829da -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_829da.dir/build.make:97: recipe for target 'cmTC_829da' failed
+make[1]: *** [cmTC_829da] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_829da/fast' failed
+make: *** [cmTC_829da/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcd1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcd1b.dir/build.make CMakeFiles/cmTC_fcd1b.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcd1b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fcd1b.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fcd1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd1b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fcd1b.dir/CheckSymbolExists.c.o  -o cmTC_fcd1b 
+CMakeFiles/cmTC_fcd1b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fcd1b.dir/build.make:97: recipe for target 'cmTC_fcd1b' failed
+make[1]: *** [cmTC_fcd1b] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcd1b/fast' failed
+make: *** [cmTC_fcd1b/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_330f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_330f3.dir/build.make CMakeFiles/cmTC_330f3.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_330f3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_330f3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_330f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_330f3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_330f3.dir/CheckFunctionExists.c.o  -o cmTC_330f3 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_330f3.dir/build.make:97: recipe for target 'cmTC_330f3' failed
+make[1]: *** [cmTC_330f3] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_330f3/fast' failed
+make: *** [cmTC_330f3/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e7f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e7f3.dir/build.make CMakeFiles/cmTC_3e7f3.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e7f3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e7f3.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3e7f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e7f3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3e7f3.dir/CheckSymbolExists.c.o  -o cmTC_3e7f3 
+CMakeFiles/cmTC_3e7f3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3e7f3.dir/build.make:97: recipe for target 'cmTC_3e7f3' failed
+make[1]: *** [cmTC_3e7f3] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3e7f3/fast' failed
+make: *** [cmTC_3e7f3/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c377e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c377e.dir/build.make CMakeFiles/cmTC_c377e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c377e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c377e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c377e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c377e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c377e.dir/CheckFunctionExists.c.o  -o cmTC_c377e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c377e.dir/build.make:97: recipe for target 'cmTC_c377e' failed
+make[1]: *** [cmTC_c377e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c377e/fast' failed
+make: *** [cmTC_c377e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86cd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86cd8.dir/build.make CMakeFiles/cmTC_86cd8.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86cd8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_86cd8.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86cd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86cd8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_86cd8.dir/CheckSymbolExists.c.o  -o cmTC_86cd8 
+CMakeFiles/cmTC_86cd8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_86cd8.dir/build.make:97: recipe for target 'cmTC_86cd8' failed
+make[1]: *** [cmTC_86cd8] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_86cd8/fast' failed
+make: *** [cmTC_86cd8/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08dea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08dea.dir/build.make CMakeFiles/cmTC_08dea.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08dea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_08dea.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08dea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08dea.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_08dea.dir/CheckFunctionExists.c.o  -o cmTC_08dea -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_08dea.dir/build.make:97: recipe for target 'cmTC_08dea' failed
+make[1]: *** [cmTC_08dea] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_08dea/fast' failed
+make: *** [cmTC_08dea/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdc5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fdc5e.dir/build.make CMakeFiles/cmTC_fdc5e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdc5e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fdc5e.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fdc5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdc5e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fdc5e.dir/CheckSymbolExists.c.o  -o cmTC_fdc5e 
+CMakeFiles/cmTC_fdc5e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fdc5e.dir/build.make:97: recipe for target 'cmTC_fdc5e' failed
+make[1]: *** [cmTC_fdc5e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fdc5e/fast' failed
+make: *** [cmTC_fdc5e/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b525/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b525.dir/build.make CMakeFiles/cmTC_8b525.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b525.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b525.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b525.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8b525.dir/CheckFunctionExists.c.o  -o cmTC_8b525 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8b525.dir/build.make:97: recipe for target 'cmTC_8b525' failed
+make[1]: *** [cmTC_8b525] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b525/fast' failed
+make: *** [cmTC_8b525/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99320/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99320.dir/build.make CMakeFiles/cmTC_99320.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99320.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99320.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99320.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_99320.dir/CheckSymbolExists.c.o  -o cmTC_99320 
+CMakeFiles/cmTC_99320.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_99320.dir/build.make:97: recipe for target 'cmTC_99320' failed
+make[1]: *** [cmTC_99320] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_99320/fast' failed
+make: *** [cmTC_99320/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_356e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_356e2.dir/build.make CMakeFiles/cmTC_356e2.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_356e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_356e2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_356e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_356e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_356e2.dir/CheckFunctionExists.c.o  -o cmTC_356e2 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_356e2.dir/build.make:97: recipe for target 'cmTC_356e2' failed
+make[1]: *** [cmTC_356e2] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_356e2/fast' failed
+make: *** [cmTC_356e2/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dec04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dec04.dir/build.make CMakeFiles/cmTC_dec04.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dec04.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dec04.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dec04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec04.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dec04.dir/CheckSymbolExists.c.o  -o cmTC_dec04 
+CMakeFiles/cmTC_dec04.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dec04.dir/build.make:97: recipe for target 'cmTC_dec04' failed
+make[1]: *** [cmTC_dec04] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dec04/fast' failed
+make: *** [cmTC_dec04/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcbc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcbc8.dir/build.make CMakeFiles/cmTC_dcbc8.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcbc8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dcbc8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dcbc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbc8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dcbc8.dir/CheckFunctionExists.c.o  -o cmTC_dcbc8 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dcbc8.dir/build.make:97: recipe for target 'cmTC_dcbc8' failed
+make[1]: *** [cmTC_dcbc8] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dcbc8/fast' failed
+make: *** [cmTC_dcbc8/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7732/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7732.dir/build.make CMakeFiles/cmTC_f7732.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7732.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f7732.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f7732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7732.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f7732.dir/CheckSymbolExists.c.o  -o cmTC_f7732 
+CMakeFiles/cmTC_f7732.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f7732.dir/build.make:97: recipe for target 'cmTC_f7732' failed
+make[1]: *** [cmTC_f7732] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f7732/fast' failed
+make: *** [cmTC_f7732/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49558/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49558.dir/build.make CMakeFiles/cmTC_49558.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49558.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49558.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49558
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49558.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_49558.dir/CheckFunctionExists.c.o  -o cmTC_49558 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_49558.dir/build.make:97: recipe for target 'cmTC_49558' failed
+make[1]: *** [cmTC_49558] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49558/fast' failed
+make: *** [cmTC_49558/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5609e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5609e.dir/build.make CMakeFiles/cmTC_5609e.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5609e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5609e.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5609e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5609e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5609e.dir/CheckSymbolExists.c.o  -o cmTC_5609e 
+CMakeFiles/cmTC_5609e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5609e.dir/build.make:97: recipe for target 'cmTC_5609e' failed
+make[1]: *** [cmTC_5609e] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5609e/fast' failed
+make: *** [cmTC_5609e/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29ca7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29ca7.dir/build.make CMakeFiles/cmTC_29ca7.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29ca7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_29ca7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29ca7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_29ca7.dir/CheckFunctionExists.c.o  -o cmTC_29ca7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_29ca7.dir/build.make:97: recipe for target 'cmTC_29ca7' failed
+make[1]: *** [cmTC_29ca7] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29ca7/fast' failed
+make: *** [cmTC_29ca7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c07e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c07e3.dir/build.make CMakeFiles/cmTC_c07e3.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c07e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c07e3.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c07e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c07e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c07e3.dir/CheckSymbolExists.c.o  -o cmTC_c07e3 
+CMakeFiles/cmTC_c07e3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c07e3.dir/build.make:97: recipe for target 'cmTC_c07e3' failed
+make[1]: *** [cmTC_c07e3] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c07e3/fast' failed
+make: *** [cmTC_c07e3/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e749c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e749c.dir/build.make CMakeFiles/cmTC_e749c.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e749c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e749c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e749c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e749c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e749c.dir/CheckFunctionExists.c.o  -o cmTC_e749c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e749c.dir/build.make:97: recipe for target 'cmTC_e749c' failed
+make[1]: *** [cmTC_e749c] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e749c/fast' failed
+make: *** [cmTC_e749c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ccc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ccc5.dir/build.make CMakeFiles/cmTC_4ccc5.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ccc5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ccc5.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ccc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ccc5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4ccc5.dir/CheckSymbolExists.c.o  -o cmTC_4ccc5 
+CMakeFiles/cmTC_4ccc5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4ccc5.dir/build.make:97: recipe for target 'cmTC_4ccc5' failed
+make[1]: *** [cmTC_4ccc5] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4ccc5/fast' failed
+make: *** [cmTC_4ccc5/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d747/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d747.dir/build.make CMakeFiles/cmTC_7d747.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d747.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7d747.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d747
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d747.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7d747.dir/CheckFunctionExists.c.o  -o cmTC_7d747 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7d747.dir/build.make:97: recipe for target 'cmTC_7d747' failed
+make[1]: *** [cmTC_7d747] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d747/fast' failed
+make: *** [cmTC_7d747/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64fed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64fed.dir/build.make CMakeFiles/cmTC_64fed.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64fed.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_64fed.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_64fed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64fed.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_64fed.dir/CheckSymbolExists.c.o  -o cmTC_64fed 
+CMakeFiles/cmTC_64fed.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_64fed.dir/build.make:97: recipe for target 'cmTC_64fed' failed
+make[1]: *** [cmTC_64fed] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_64fed/fast' failed
+make: *** [cmTC_64fed/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d553b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d553b.dir/build.make CMakeFiles/cmTC_d553b.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d553b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d553b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d553b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d553b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d553b.dir/CheckFunctionExists.c.o  -o cmTC_d553b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d553b.dir/build.make:97: recipe for target 'cmTC_d553b' failed
+make[1]: *** [cmTC_d553b] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d553b/fast' failed
+make: *** [cmTC_d553b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df349/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df349.dir/build.make CMakeFiles/cmTC_df349.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df349.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_df349.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_df349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df349.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df349.dir/CheckSymbolExists.c.o  -o cmTC_df349 
+CMakeFiles/cmTC_df349.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_df349.dir/build.make:97: recipe for target 'cmTC_df349' failed
+make[1]: *** [cmTC_df349] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_df349/fast' failed
+make: *** [cmTC_df349/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4eb74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4eb74.dir/build.make CMakeFiles/cmTC_4eb74.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4eb74.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4eb74.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4eb74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb74.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4eb74.dir/CheckFunctionExists.c.o  -o cmTC_4eb74 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4eb74.dir/build.make:97: recipe for target 'cmTC_4eb74' failed
+make[1]: *** [cmTC_4eb74] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4eb74/fast' failed
+make: *** [cmTC_4eb74/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_935a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_935a1.dir/build.make CMakeFiles/cmTC_935a1.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_935a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_935a1.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_935a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935a1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_935a1.dir/CheckSymbolExists.c.o  -o cmTC_935a1 
+CMakeFiles/cmTC_935a1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_935a1.dir/build.make:97: recipe for target 'cmTC_935a1' failed
+make[1]: *** [cmTC_935a1] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_935a1/fast' failed
+make: *** [cmTC_935a1/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60f76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60f76.dir/build.make CMakeFiles/cmTC_60f76.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60f76.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_60f76.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_60f76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60f76.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_60f76.dir/CheckFunctionExists.c.o  -o cmTC_60f76 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_60f76.dir/build.make:97: recipe for target 'cmTC_60f76' failed
+make[1]: *** [cmTC_60f76] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_60f76/fast' failed
+make: *** [cmTC_60f76/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf798/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf798.dir/build.make CMakeFiles/cmTC_bf798.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf798.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf798.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bf798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf798.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bf798.dir/CheckSymbolExists.c.o  -o cmTC_bf798 
+CMakeFiles/cmTC_bf798.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf798.dir/build.make:97: recipe for target 'cmTC_bf798' failed
+make[1]: *** [cmTC_bf798] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf798/fast' failed
+make: *** [cmTC_bf798/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e747d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e747d.dir/build.make CMakeFiles/cmTC_e747d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e747d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e747d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e747d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e747d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e747d.dir/CheckFunctionExists.c.o  -o cmTC_e747d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e747d.dir/build.make:97: recipe for target 'cmTC_e747d' failed
+make[1]: *** [cmTC_e747d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e747d/fast' failed
+make: *** [cmTC_e747d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c0e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c0e2.dir/build.make CMakeFiles/cmTC_9c0e2.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c0e2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9c0e2.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9c0e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c0e2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c0e2.dir/CheckSymbolExists.c.o  -o cmTC_9c0e2 
+CMakeFiles/cmTC_9c0e2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9c0e2.dir/build.make:97: recipe for target 'cmTC_9c0e2' failed
+make[1]: *** [cmTC_9c0e2] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9c0e2/fast' failed
+make: *** [cmTC_9c0e2/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2412d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2412d.dir/build.make CMakeFiles/cmTC_2412d.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2412d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2412d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2412d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2412d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2412d.dir/CheckFunctionExists.c.o  -o cmTC_2412d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2412d.dir/build.make:97: recipe for target 'cmTC_2412d' failed
+make[1]: *** [cmTC_2412d] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2412d/fast' failed
+make: *** [cmTC_2412d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f334/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f334.dir/build.make CMakeFiles/cmTC_1f334.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f334.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f334.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1f334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f334.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1f334.dir/CheckSymbolExists.c.o  -o cmTC_1f334 
+CMakeFiles/cmTC_1f334.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1f334.dir/build.make:97: recipe for target 'cmTC_1f334' failed
+make[1]: *** [cmTC_1f334] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1f334/fast' failed
+make: *** [cmTC_1f334/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_004bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_004bb.dir/build.make CMakeFiles/cmTC_004bb.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_004bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_004bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_004bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_004bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_004bb.dir/CheckFunctionExists.c.o  -o cmTC_004bb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_004bb.dir/build.make:97: recipe for target 'cmTC_004bb' failed
+make[1]: *** [cmTC_004bb] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_004bb/fast' failed
+make: *** [cmTC_004bb/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ae79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ae79.dir/build.make CMakeFiles/cmTC_2ae79.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ae79.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2ae79.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ae79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae79.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2ae79.dir/CheckSymbolExists.c.o  -o cmTC_2ae79 
+CMakeFiles/cmTC_2ae79.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2ae79.dir/build.make:97: recipe for target 'cmTC_2ae79' failed
+make[1]: *** [cmTC_2ae79] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2ae79/fast' failed
+make: *** [cmTC_2ae79/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_538f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_538f8.dir/build.make CMakeFiles/cmTC_538f8.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_538f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_538f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_538f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_538f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_538f8.dir/CheckFunctionExists.c.o  -o cmTC_538f8 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_538f8.dir/build.make:97: recipe for target 'cmTC_538f8' failed
+make[1]: *** [cmTC_538f8] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_538f8/fast' failed
+make: *** [cmTC_538f8/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc4e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc4e1.dir/build.make CMakeFiles/cmTC_cc4e1.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc4e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc4e1.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc4e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc4e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc4e1.dir/CheckSymbolExists.c.o  -o cmTC_cc4e1 
+CMakeFiles/cmTC_cc4e1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc4e1.dir/build.make:97: recipe for target 'cmTC_cc4e1' failed
+make[1]: *** [cmTC_cc4e1] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc4e1/fast' failed
+make: *** [cmTC_cc4e1/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee59c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee59c.dir/build.make CMakeFiles/cmTC_ee59c.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee59c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ee59c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee59c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee59c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ee59c.dir/CheckFunctionExists.c.o  -o cmTC_ee59c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ee59c.dir/build.make:97: recipe for target 'cmTC_ee59c' failed
+make[1]: *** [cmTC_ee59c] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee59c/fast' failed
+make: *** [cmTC_ee59c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_810e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_810e4.dir/build.make CMakeFiles/cmTC_810e4.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_810e4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_810e4.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_810e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_810e4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_810e4.dir/CheckSymbolExists.c.o  -o cmTC_810e4 
+CMakeFiles/cmTC_810e4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_810e4.dir/build.make:97: recipe for target 'cmTC_810e4' failed
+make[1]: *** [cmTC_810e4] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_810e4/fast' failed
+make: *** [cmTC_810e4/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19d90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19d90.dir/build.make CMakeFiles/cmTC_19d90.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d90.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_19d90.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19d90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d90.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_19d90.dir/CheckFunctionExists.c.o  -o cmTC_19d90 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_19d90.dir/build.make:97: recipe for target 'cmTC_19d90' failed
+make[1]: *** [cmTC_19d90] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_19d90/fast' failed
+make: *** [cmTC_19d90/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21bfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21bfd.dir/build.make CMakeFiles/cmTC_21bfd.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21bfd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_21bfd.dir/CheckSymbolExists.c.o   -c /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21bfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21bfd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_21bfd.dir/CheckSymbolExists.c.o  -o cmTC_21bfd 
+CMakeFiles/cmTC_21bfd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_21bfd.dir/build.make:97: recipe for target 'cmTC_21bfd' failed
+make[1]: *** [cmTC_21bfd] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21bfd/fast' failed
+make: *** [cmTC_21bfd/fast] Error 2
+
+File /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2933/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2933.dir/build.make CMakeFiles/cmTC_a2933.dir/build
+make[1]: Entering directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2933.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a2933.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2933.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a2933.dir/CheckFunctionExists.c.o  -o cmTC_a2933 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a2933.dir/build.make:97: recipe for target 'cmTC_a2933' failed
+make[1]: *** [cmTC_a2933] Error 1
+make[1]: Leaving directory '/root/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a2933/fast' failed
+make: *** [cmTC_a2933/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff7f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff7f4.dir/build.make CMakeFiles/cmTC_ff7f4.dir/build
+make[1]: Entering directory '/home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff7f4.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ff7f4.dir/CheckSymbolExists.c.o   -c /home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ff7f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff7f4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ff7f4.dir/CheckSymbolExists.c.o  -o cmTC_ff7f4 -rdynamic 
+CMakeFiles/cmTC_ff7f4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ff7f4.dir/build.make:97: recipe for target 'cmTC_ff7f4' failed
+make[1]: *** [cmTC_ff7f4] Error 1
+make[1]: Leaving directory '/home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ff7f4/fast' failed
+make: *** [cmTC_ff7f4/fast] Error 2
+
+File /home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b35d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b35d9.dir/build.make CMakeFiles/cmTC_b35d9.dir/build
+make[1]: Entering directory '/home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b35d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b35d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b35d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35d9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b35d9.dir/CheckFunctionExists.c.o  -o cmTC_b35d9 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b35d9.dir/build.make:97: recipe for target 'cmTC_b35d9' failed
+make[1]: *** [cmTC_b35d9] Error 1
+make[1]: Leaving directory '/home/easy/mjpg-streamer/mjpg-streamer-experimental/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b35d9/fast' failed
+make: *** [cmTC_b35d9/fast] Error 2
+
+
